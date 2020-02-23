@@ -9,42 +9,43 @@ screenHeight = 480
 win = pygame.display.set_mode((screenWidth, screenHeight))
 pygame.display.set_caption("Game Test")
 
-walkRight = [pygame.image.load('C:/Users/razon/PyGame/pygame-tutorial/assets/R1.png'),
-             pygame.image.load(
-                 'C:/Users/razon/PyGame/pygame-tutorial/assets/R2.png'),
-             pygame.image.load(
-                 'C:/Users/razon/PyGame/pygame-tutorial/assets/R3.png'),
-             pygame.image.load(
-                 'C:/Users/razon/PyGame/pygame-tutorial/assets/R4.png'),
-             pygame.image.load(
-                 'C:/Users/razon/PyGame/pygame-tutorial/assets/R5.png'),
-             pygame.image.load(
-                 'C:/Users/razon/PyGame/pygame-tutorial/assets/R6.png'),
-             pygame.image.load(
-                 'C:/Users/razon/PyGame/pygame-tutorial/assets/R7.png'),
-             pygame.image.load(
-                 'C:/Users/razon/PyGame/pygame-tutorial/assets/R8.png'),
-             pygame.image.load('C:/Users/razon/PyGame/pygame-tutorial/assets/R9.png')]
 
-walkLeft = [pygame.image.load('C:/Users/razon/PyGame/pygame-tutorial/assets/L1.png'),
-            pygame.image.load(
-                'C:/Users/razon/PyGame/pygame-tutorial/assets/L2.png'),
-            pygame.image.load(
-                'C:/Users/razon/PyGame/pygame-tutorial/assets/L3.png'),
-            pygame.image.load(
-                'C:/Users/razon/PyGame/pygame-tutorial/assets/L4.png'),
-            pygame.image.load(
-                'C:/Users/razon/PyGame/pygame-tutorial/assets/L5.png'),
-            pygame.image.load(
-                'C:/Users/razon/PyGame/pygame-tutorial/assets/L6.png'),
-            pygame.image.load(
-                'C:/Users/razon/PyGame/pygame-tutorial/assets/L7.png'),
-            pygame.image.load(
-                'C:/Users/razon/PyGame/pygame-tutorial/assets/L8.png'),
-            pygame.image.load('C:/Users/razon/PyGame/pygame-tutorial/assets/L9.png')]
+walkRight = [pygame.image.load('C:/Users/razon/Python/PyGame/pygame-tutorial/assets/R1.png'),
+             pygame.image.load(
+                 'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/R2.png'),
+             pygame.image.load(
+                 'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/R3.png'),
+             pygame.image.load(
+                 'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/R4.png'),
+             pygame.image.load(
+                 'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/R5.png'),
+             pygame.image.load(
+                 'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/R6.png'),
+             pygame.image.load(
+                 'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/R7.png'),
+             pygame.image.load(
+                 'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/R8.png'),
+             pygame.image.load('C:/Users/razon/Python/PyGame/pygame-tutorial/assets/R9.png')]
 
-bg = pygame.image.load('C:/Users/razon/PyGame/pygame-tutorial/assets/bg.jpg')
-char = pygame.image.load('C:/Users/razon/PyGame/pygame-tutorial/assets/standing.png')
+walkLeft = [pygame.image.load('C:/Users/razon/Python/PyGame/pygame-tutorial/assets/L1.png'),
+            pygame.image.load(
+                'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/L2.png'),
+            pygame.image.load(
+                'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/L3.png'),
+            pygame.image.load(
+                'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/L4.png'),
+            pygame.image.load(
+                'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/L5.png'),
+            pygame.image.load(
+                'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/L6.png'),
+            pygame.image.load(
+                'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/L7.png'),
+            pygame.image.load(
+                'C:/Users/razon/Python/PyGame/pygame-tutorial/assets/L8.png'),
+            pygame.image.load('C:/Users/razon/Python/PyGame/pygame-tutorial/assets/L9.png')]
+
+bg = pygame.image.load('C:/Users/razon/Python/PyGame/pygame-tutorial/assets/bg.jpg')
+char = pygame.image.load('C:/Users/razon/Python/PyGame/pygame-tutorial/assets/standing.png')
 
 clock = pygame.time.Clock()
 
